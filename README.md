@@ -16,10 +16,15 @@ It will download a "myFile.txt" which contains the urls of the images on the goo
 
 
 |-DataSet
+    
     |-Class1
+    
     |-Class2
+    
     |-Class3
-     .....
+    
+    .....
+
 5. Run the "Downloader.py" with command line argument -u="LOCATION OF THAT PARTICULAR CLASS myFILE.txt" -o="DataSet\PARTICULAR CLASS PATH" -n="NUMBER OF IMAGES YOU WANT TO DOWNLOAD FOR THAT CLASS"
 NOTE:If the number of images on the google image search is less than the number of images you want it will download only tha available images.
 Continue Step 5 for all the classes this will fill the Class folders with images downloaded from the web.
